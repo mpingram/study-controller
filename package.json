@@ -1,0 +1,30 @@
+{
+  "name": "multiplication_study_site",
+  "private": true,
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack",
+    "build": "tsc && webpack",
+    "test": "tsc && jasmine"
+  },
+  "author": "Michael Ingram",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^2.5.47",
+    "concurrently": "^3.4.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.6.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-spec-reporter": "0.0.30",
+    "karma-typescript": "^3.0.0",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.2.2",
+    "webpack": "^2.3.3"
+  },
+  "dependencies": {}
+}

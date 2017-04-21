@@ -1,0 +1,6 @@
+node_modules
+bower_components
+TODO.txt
+current_commit.txt
+npm-debug.log
+**/npm-debug.log

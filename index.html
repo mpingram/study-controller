@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Study</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!--
+	<link rel="stylesheet" href="app/styles/main.css">
+	-->
+
+</head>
+<body>
+
+	<div id='finished-study' class='modal'>
+		<p class='modal-text'></p>
+	</div>
+
+	<div id='timeout' class='modal'>
+		<p class='modal-text'></p>
+	</div>
+
+	<div id='screen-size-alert' class='modal'>
+		<p class='modal-text'>Your screen width is too small for this study. Please move to a different device or increase the size of the study window.</p>
+	</div>
+
+	<div id='request-participant-id' class='modal'>
+		<p class='modal-text'></p>
+		<input class='modal-input' type='text' required >
+		<button class='modal-close-button'> OK </button>
+	</div>
+
+
+
+	<div class='study-area-wrapper'>
+
+		<div id='progress-wall-container'>
+
+	
+
+		</div>
+
+		<div id='task-area-container' class='hidden'>
+			<div id='timer'>
+			</div>
+			<div id='task'>
+				<div id='task-sentence'></div>
+				<input type='text' id='task-input' oncopy='return false' onpaste='return false' oncut='return false' autocomplete='off' autocorrect='off' spellcheck='false' autocapitalize='off'>
+			</div>
+			<div class='task-submit-info'>Enter the word(s) exactly as above and press "Enter" to submit.</div>
+		</div>
+
+	</div>
+
+	<div id='exit-button'>
+		Exit
+	</div>
+
+	<script src='bower_components/jquery/dist/jquery.min.js'></script>
+	
+	<script src="dist/bundle.js"></script>
+</body>
+</html>
